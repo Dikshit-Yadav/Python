@@ -1,0 +1,1 @@
+Python is a high-level, interpreted, and object-oriented programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python's design philosophy emphasizes code readability, using significant indentation to define code blocks, which makes it easier to understand and write.
