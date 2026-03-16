@@ -1,4 +1,4 @@
-flask
-rembg
-pillow
-gunicorn
+flask==3.1.3
+gunicorn==25.1.0
+pillow==12.1.1
+rembg[cpu]==2.0.73
