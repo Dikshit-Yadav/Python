@@ -2,8 +2,10 @@ from flask import Flask, request, send_file
 import io
 from rembg import remove
 from PIL import Image
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app, origins=["https://e-sign-vl9f.onrender.com"], supports_credentials=True)
 
 @app.route("/", methods=["GET"])
 def home():
